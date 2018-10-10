@@ -1,0 +1,109 @@
+/*!
+ * Start Bootstrap - Shop Homepage HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+a, a:active, a:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+body {
+  padding: 5%;
+  /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.container {
+  width: 100%;
+}
+
+.bg-image {
+  background: url(../../resources/images/login.png) #b3cefb 100% no-repeat;
+  background-attachment: fixed;
+  background-color: #b3cefb;
+  background-size: cover;
+}
+
+.slide-image {
+  width: 100%;
+}
+
+.carousel-holder {
+  margin-bottom: 30px;
+}
+
+.carousel-control,
+.item {
+  border-radius: 4px;
+}
+
+.caption {
+  height: 130px;
+  overflow: hidden;
+}
+
+.caption h4 {
+  white-space: nowrap;
+}
+
+.thumbnail img {
+  width: 100%;
+}
+
+.ratings {
+  padding-right: 10px;
+  padding-left: 10px;
+  color: #d17581;
+}
+
+.thumbnail {
+  padding: 0;
+}
+
+.thumbnail .caption-full {
+  padding: 9px;
+  color: #333;
+}
+
+footer {
+  margin: 50px 0;
+}
+
+.input-fluent {
+  width: 100%;
+  border-radius: 30px;
+  border: 2px solid #fff;
+  box-shadow: none;
+  transition: none;
+}
+
+.input-fluent:focus {
+  border: 2px solid #b3cefb;
+  box-shadow: none;
+}
+
+/* BUTTON */
+/* =================================================== */
+.btn-primary {
+  background: rgba(255, 255, 255, 1);
+  color: #000;
+}
+
+.btn-primary:hover {
+  background: #b3cefb;
+}
+
+/* LOGIN PAGE */
+/* =================================================== */
+.login-bg {
+  padding: 40px 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid #fff;
+  width: 30%;
+  border-radius: 10px
+}
